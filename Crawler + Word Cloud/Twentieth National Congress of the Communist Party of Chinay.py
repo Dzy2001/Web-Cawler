@@ -4,6 +4,9 @@ from lxml import etree
 import wordcloud
 from matplotlib.pyplot import imread
 
+#Here you need to download feasible images on your own, preferably a few with distinctly different colors.
+#At the same time, you must understand the more basic knowledge of crawlers.
+
 class Drawing(object):
 
     def __init__(self, url, headers):
