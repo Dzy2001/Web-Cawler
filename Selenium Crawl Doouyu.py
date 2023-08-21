@@ -3,7 +3,7 @@ from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 import time
 
-#
+#You will need to download the appropriate browser engine.
 
 class Douyu(object):
     def __init__(self, url):
